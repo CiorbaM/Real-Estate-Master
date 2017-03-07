@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    
+</head>
+<body class="container">
+   <main>
+        <div id="canvas1">
+            <h1 class="centrage">This is a good deal ? </h1>
+            <p class="centrage">Welcome to the site</p>
+            <p class="centrage">Here you can find informations about your price in the town that you want. I you will now if the price of the proprety that you want to buy is smaller or bigger thant the avarage. You just have to put here the link.</p>
+        </div>
+    </main>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 col-md-6">
+            <form class="centrage" id="lien" method="get" action="/process">
+               <div class="row">
+                    <div class="col-xs-8 col-sm-9">
+                        <input type="texte" class="form-control" name="lbcUrl" size="50" placeholder="http://leboncoin.fr"/>
+                    </div>
+                    <div class="col-xs-4 col-sm-3">
+                        <button type="submit" class="btn btn-default">submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>      
+    </div>
+<p> 
+	<script language="javascript">document.write(isGoodDeal(lbcData, maData)); </script>
+</p>
+
+</body>
+</html>
