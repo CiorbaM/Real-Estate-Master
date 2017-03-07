@@ -1,0 +1,13 @@
+body {
+    background: #34495e;
+    color: white;
+}
+.centrage {text-align: center;}
+#canvas1{
+	border : 3px solid orange;
+	opacity: 0.5;
+}
+#lien{ font: 16px arial,sans-serif;
+    line-height: 34px;
+    margin-top: 10px;
+    height: 34px !important; }
